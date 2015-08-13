@@ -1,4 +1,6 @@
 #!/usr/bin/python
+# This quick script will monitor a riak cluster for a given set of metrics
+# and output those metrics onscreen as well as to a CSV file for quick graphing
 
 import time, urllib, json, os, datetime, sys
 
